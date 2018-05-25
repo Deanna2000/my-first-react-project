@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("floral2.png");
+}
+
+h3  {
+  color: rgb(226, 57, 27);
+  opacity: .7;
+}
+
+h2{
+  color:white;
+  /* color: rgb(141, 214, 24); */
+  opacity: .9;
+  background-color: lightgray;
+  font-size: 3em;
+
+}
+
+p{
+  color: orchid;
+  opacity: .7;
+
+}

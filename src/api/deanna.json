@@ -1,0 +1,27 @@
+
+{
+    "people": [
+        {
+            "id": 1,
+            "firstName": "Deanna",
+            "lastName": "Vickers",
+            "occupation": "NSS Student",
+            "address": {
+              "street": "2824 Faith Ln",
+              "city": "Spring Hill",
+              "state": "Tennessee"
+            },
+            "pet": {
+              "name": "Les, the bastard",
+              "breed": "demon"
+            },
+            "car": {
+              "make": "Nissan",
+              "model": "Xterra"
+            },
+            "cohort": "Day Cohort 25"
+       }
+    ]
+}
+
+
