@@ -9,6 +9,7 @@ body {
 h3  {
   color: rgb(226, 57, 27);
   opacity: .7;
+  font-size: 1.8em;
 }
 
 h2{
@@ -23,5 +24,26 @@ h2{
 p{
   color: orchid;
   opacity: .7;
-
 }
+
+.occupation button {
+  background-color: lightgoldenrodyellow;
+  border: none;
+  width: 100%;
+}
+
+.boxShadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxShadow::after {
+  content: '';
+  position: absolute;
+  z-index: -1; /* hide shadow behind image */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  left: 15%; /* one half of the remaining 30% */
+  height: 100px;
+  bottom: 0;
+}
+

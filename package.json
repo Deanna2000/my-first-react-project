@@ -5,13 +5,14 @@
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-responsive-modal": "^3.0.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "https://github.com/Deanna2000/my-first-react-project#deployment ",
-    "homepage" : "http://myname.github.io/myapp",
+    "homepage": "http://myname.github.io/myapp",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

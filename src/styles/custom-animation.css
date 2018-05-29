@@ -1,0 +1,23 @@
+.custom-overlay {
+    background: rgba(226, 57, 27, 0.6);
+  }
+  .custom-modal {
+    background: lightgoldenrodyellow;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .transition-enter {
+    transform: scale(0);
+  }
+  .transition-enter-active {
+    transform: scale(1);
+    transition: transform 1000ms ease;
+  }
+  .transition-exit {
+    transform: scale(1);
+  }
+  .transition-exit-active {
+    transform: scale(0);
+    transition: transform 1000ms ease;
+  }
