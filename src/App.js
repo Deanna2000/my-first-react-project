@@ -11,7 +11,7 @@ class Deanna extends Component {
   state = {
           firstName: "",
           lastName: "",
-          occupation: "",
+          occupation: {},
           address: {},
           pet: {},
           car: {},

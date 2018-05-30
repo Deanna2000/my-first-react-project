@@ -4,3 +4,22 @@
     opacity: .8;
     margin: auto;
 }
+
+.profilePic{
+    border-radius: 50%;
+    float: left;
+    width: 60%;
+    height: 60%;
+}
+
+.occupationModalText{
+    text-align: left;
+    width: 75%;
+    float: right;
+    margin-right:10px;
+    font-size: .8em;
+}
+
+.profilePicContainer{
+    width: 25%;
+}

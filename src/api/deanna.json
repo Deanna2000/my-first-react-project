@@ -5,7 +5,11 @@
             "id": 1,
             "firstName": "Deanna",
             "lastName": "Vickers",
-            "occupation": "I'm a full stack dev student at  NSS and a beginning entrepreneur.",
+            "occupation": {
+              "highlight": "I'm a full stack dev student at  NSS", "href=www.nss.org": " and a beginning entrepreneur.",
+              "modalHeader": "Make a mess, then make it better than it was.",
+              "modalDetail":"Whether it's clothes from a closet, ingredients from a pantry or ideas from your head, the first part of solving a problem is to pull everything apart and make a mess of it."
+            },
             "address": {
               "street": "2824 Faith Ln",
               "city": "Spring Hill",

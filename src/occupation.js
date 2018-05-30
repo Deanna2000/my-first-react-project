@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import "./styles/occupation.css";
 import Modal from 'react-responsive-modal';
+import OccupationModal from './occupationModal';
 import './styles/custom-animation.css';
 import './index.css';
-import './deannaProfile.jpg';
 
 
 
@@ -25,7 +25,7 @@ class Occupation extends Component {
                 <div className="occupation boxShadow">
                 <button className="btn btn-action" onClick={this.onOpenModal}>
                     <h3>What I do:</h3>
-                    <p>{this.props.occupation} </p>
+                    <p>{this.props.occupation.highlight} </p>
                 </button>{' '}
         <Modal
           open={open}
@@ -41,13 +41,10 @@ class Occupation extends Component {
           }}
           animationDuration={1000}
         >
-        <img src='/deannaProfile.jpg' alt='profile pic'></img>
-          <h4>
-            Make a Mess; Clean it Up
-          </h4>
+        <OccupationModal newInformation={this.props.occupation}/>
         </Modal>
 
-                </div>
+        </div>
         );
     }
 }

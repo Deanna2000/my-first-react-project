@@ -1,9 +1,9 @@
 .custom-overlay {
-    background: rgba(226, 57, 27, 0.6);
+    background: rgba(167, 162, 161, 0.6);
   }
   .custom-modal {
     background: lightgoldenrodyellow;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
   }
 
