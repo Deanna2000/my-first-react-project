@@ -11,14 +11,14 @@ class Occupation extends Component {
     state = {
         open: false,
       }
-        onOpenModal = () => {
-        this.setState({ open: true });
-      }
 
-        onCloseModal = () => {
-        this.setState({ open: false });
-      }
+      onOpenModal = () => {
+      this.setState({ open: true });
+    }
 
+      onCloseModal = () => {
+      this.setState({ open: false });
+    }
     render() {
         const { open } = this.state;
         return (
@@ -27,6 +27,7 @@ class Occupation extends Component {
                     <h3>What I do:</h3>
                     <p>{this.props.occupation.highlight} </p>
                 </button>{' '}
+
         <Modal
           open={open}
           onClose={this.onCloseModal}
